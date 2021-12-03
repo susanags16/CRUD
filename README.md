@@ -1,4 +1,4 @@
-# crud
+# CRUD
 Alumno: Susana de Jesús García Santiago
 N°Control: 18920025
 
