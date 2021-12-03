@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <title>CRUD FARMACIA</title>
+    <link type="text/css" rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        
+        <h1>FARMACIA "LOS ÁNGELES"</h1>
+    </header>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="Formulario()">
+                    <div class="titulos">
+                        <label for="codigoProducto">Código:</label>
+                        <input type="text" name="codigoProducto" id="codigoProducto">
+                    </div>
+                    <div class="titulos">
+                        <label for="producto">Nombre del Producto:</label>
+                        <input type="text" name="producto" id="producto">
+                    </div>
+                    <div class="titulos">
+                        <label for="presentacion">Presentación:</label>
+                        <input type="text" name="presentacion" id="presentacion">
+                    </div>
+                    <div class="titulos">
+                        <label for="tipo">Tipo:</label>
+                        <input type="text" name="tipo" id="tipo">
+                    </div>
+                    <div class="titulos">
+                        <label for="cantidad">Cantidad:</label>
+                        <input type="number" name="cantidad" id="cantidad">
+                    </div>
+                    <div class="titulos">
+                        <label for="precio">Precio:</label>
+                        <input type="number" name="precio" id="precio">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Registrar">
+                        <input type="reset" value="Limpiar">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="listaTienda">
+                        <thead>
+                            <tr">
+                                <th>Código</th>
+                                <th>Nombre del Producto</th>
+                                <th>Presentación</th>
+                                <th>Tipo</th>
+                                <th>Cantidad</th>
+                                <th>Precio</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
